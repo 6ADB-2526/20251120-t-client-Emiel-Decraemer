@@ -23,12 +23,8 @@ fetch("https://o-apiandclient-render.onrender.com/geschenken")
         const newLi = document.querySelector("li")
         newLi.innerHTML = geschenk.naam
         ulgeschenken.appendChild(newLi)
-
-        const newoption = document.querySelector("li")
-        newoption.innerHTML = geschenk.naam
-        selectGeschenken.appendChild(newoption)
     })
-
+    
 })
 
 
